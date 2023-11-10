@@ -7,6 +7,7 @@ import Contact from './pages/Contact/Contact'
 import AdminProduct from './pages/AdminProduct/AdminProduct'
 import Register from './pages/Register/Register'
 import PrivateRoute from './guard/PrivateRoute'
+import ProductDetail from './pages/ProductDetail/ProductDetail'
 
 
 function App() {
@@ -17,6 +18,10 @@ function App() {
       <main className='flex-grow-1'>
         <Routes>
           <Route path='/' element={ <Home />} />
+
+          <Route path='/product-detail/:id' element={ <ProductDetail /> } />
+
+          
           <Route path='/contact' element={ <Contact /> } />
             <Route path='/admin-product' element={         
               <PrivateRoute>

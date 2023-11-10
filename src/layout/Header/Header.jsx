@@ -17,7 +17,7 @@ const Header = () => {
         >
             <Container>
                 <Navbar.Brand href="/">LOGO</Navbar.Brand>
-                <Nav>
+                <Nav >
                     {
                       LINKS.map((link, idx) => (
                           (link.admin && isAdmin || !link.admin) &&

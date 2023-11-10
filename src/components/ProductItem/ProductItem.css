@@ -1,0 +1,36 @@
+.card {
+    border: 1px solid crimson;
+    border-radius: 8px;
+    background-color: #fefefe;
+    box-shadow: 0 0 8px rgba(0,0,0,.3);
+}
+.card-title {
+    color: dodgerblue;
+    font-weight: bold;
+
+}
+.card-description {
+    color: rgb(79, 78, 78);
+}
+.card-price {
+    color: crimson;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.card-btn {
+    background-color: dodgerblue;
+    color: white;
+    padding: .25rem .5rem;
+    border-radius: 4px;
+    border: none;
+    margin: .5rem;
+}
+        /* <h4 className="card-title">{ producto.name }</h4>
+        <p className="card-description">{ producto.description }</p>
+        <div className="card-price">{producto.price}</div>
+
+        <img src={`http://localhost:9500/uploads/${producto.image}`} />
+        <button className="card-btn">
+            Ver más
+        </button>
+        <button className="card-btn"> */
